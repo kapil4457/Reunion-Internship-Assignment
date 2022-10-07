@@ -1,0 +1,20 @@
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:2rem 4rem;
+border:2px solid black;
+}
+
+.left{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+}
+.left > .logo{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    font-size:2rem;
+}

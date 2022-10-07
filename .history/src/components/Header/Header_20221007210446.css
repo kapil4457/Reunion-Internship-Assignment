@@ -1,0 +1,104 @@
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:2rem 4rem;
+}
+
+.left{
+    display:flex;
+    align-items:center;
+    gap:4rem;
+}
+.left > .logo{
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+    font-size:1.5rem;
+    font-weight:650;
+    color:rgb(48,41,83);
+}
+
+.left > .logo > svg{
+    color:rgb(110,99,238);
+}
+
+.categories{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+}
+
+.categories > a{
+    text-decoration:none;
+    font-weight:550;
+    height:2rem;
+    display:flex;
+    align-items:center;
+    width:4rem;
+    justify-content: center;
+}
+
+.activeClass{
+    color:rgb(150, 136, 238);
+    background-color: rgb(233,230,247);
+    border-radius: 5px;
+}
+
+.categories > select{
+    width:13rem;
+    height:3rem;
+    border:none;
+    outline:none;
+    color:rgba(0,0,0,0.7);
+    font-weight:550;
+    /* background-color:rgb(233,230,247); */
+    border-radius:5px;
+    padding:0 0.5rem;
+    font-size:1rem;
+}
+
+.categories > select > option{
+    font-size:1rem;
+    font-weight:550;
+    
+}
+.right{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+
+}
+
+.right > button {
+    width:6rem;
+    height:2.3rem;
+    border-radius:10px;
+    outline:none;
+
+}
+
+.login{
+border:1px solid rgba(0,0,0,0.1);
+color:rgb(154, 148, 218);
+font-weight:650;
+cursor:pointer;
+}
+
+.sign-up
+{
+    background-color:rgb(110,97,236);
+    color:white;
+    cursor:pointer;
+    border:none;
+}
+
+@media(max-width:768px){
+    .header , .left{
+        flex-direction: column;
+    }
+    .header{
+        padding-top:1rem;
+    }
+}

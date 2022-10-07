@@ -1,0 +1,13 @@
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:2rem 4rem;
+border:2px solid black;
+}
+
+.left{
+    display:flex;
+    align-items:center;
+}

@@ -1,0 +1,93 @@
+
+.rent-card-main{
+    position:relative;
+}
+
+.main-image{
+    width:23vw;
+    border-radius:10px 10px 0 0;
+    height:20vh;
+}
+
+.rent-card-info{
+    padding:0.8rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:0.8rem;
+
+}
+
+.main-image > img{
+    border-radius:10px 10px 0 0;
+width:100%;
+height:100%;
+}
+
+.rent-card-price{
+    display:flex;
+    justify-content:space-between;
+
+}
+.rent-card-price >div{
+    color:gray;
+    font-weight: 500;
+}
+.rent-card-price > svg{
+    color:rgb(176,171,202);
+    cursor:pointer;
+}
+
+.rent-card-price >div > span{
+    font-size:1.7rem;
+    font-weight:600;
+    color:rgb(134, 127, 219);
+}
+
+.rent-card-name{
+    /* padding:0.7rem 0 0 0 ; */
+    font-weight:670;
+    color:rgb(47,45,64);
+    font-size:1.7rem;
+}
+.rent-card-address{
+    color:rgba(0,0,0,0.6);
+    font-weight: 350;
+    letter-spacing: 1px;
+}
+
+.icons{
+    display:flex;
+    gap:1rem;
+}
+
+.icons > .beds , .icons > .bath , .icons >.area{
+    display: flex;
+    align-items: center;
+    gap:0.2rem;
+    font-weight:450;
+    color:rgb(131,128,159);
+}
+
+.icons > .beds>span , .icons>span > .bath>span, .icons >.area>span{
+    letter-spacing: 1px;
+}
+
+.icons > .area  > svg{
+    transform:rotate(45deg)
+    
+}
+
+.purple-tag{
+    position: absolute;
+    width:5rem;
+    height:1.5rem;
+    top:45%;
+    left:-5%;
+
+}
+
+.purple-tag > .straight{
+    width:100%;
+    height: 100%;
+    border:1px solid black;
+}

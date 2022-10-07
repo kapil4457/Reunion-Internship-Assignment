@@ -1,0 +1,93 @@
+body{
+
+    padding:0 12rem;
+}
+.rent-main{
+    margin-bottom: 12rem;
+}
+
+.first{
+    display:flex;
+    height:5rem;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom:3rem;
+}
+
+.first > .heading{
+    font-size:3rem;
+    font-weight:650;
+    color:rgba(0,0,0,0.9);
+}
+
+.first > .search-bar{
+    width:15rem;
+    padding:0 1rem;
+    border:none;
+    border-bottom:1px solid gray;
+    outline:none;
+    height:2rem;
+    font-size:1.3rem;
+    font-weight:250;
+}
+.second > div >select {
+    font-size:1.2rem;
+    height:2rem;
+    padding:0 1rem;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    background-color:rgb(233,230,247);
+    font-weight: 450;
+}
+.second > div >select >option{
+    font-weight: 450;
+}
+.second > div >input  , .second > div >div>input {
+    font-size:1.2rem;
+    height:2rem;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    padding:0 1rem;
+    font-weight: 450;
+    background-color:rgb(233,230,247);
+}
+
+.second > div >div{
+display:flex;
+gap:1rem;
+
+}
+.second > div >div>input{
+width:8rem;
+
+}
+.second{
+    display: flex;
+    gap:5rem;
+}
+.second>div{
+    display:flex;
+    flex-direction: column;
+    width:20rem;
+}
+
+.second >div>span{
+    color:rgba(0,0,0,0.7);
+    font-size:1.3rem;
+    font-weight:550;
+    padding-left:0.5rem;
+}
+
+
+.rent-cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:5rem;
+    place-items:center;
+    gap:5rem;
+    border-radius:10px;
+  
+}
+

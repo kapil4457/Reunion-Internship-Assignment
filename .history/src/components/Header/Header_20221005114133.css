@@ -1,0 +1,55 @@
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:2rem 4rem;
+border:2px solid black;
+}
+
+.left{
+    display:flex;
+    align-items:center;
+    gap:4rem;
+}
+.left > .logo{
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+    font-size:1.5rem;
+    font-weight:650;
+    color:rgb(48,41,83);
+}
+
+.left > .logo > svg{
+    color:rgb(110,99,238);
+}
+
+.categories{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+}
+
+.categories > a{
+    text-decoration:none;
+    font-weight:550;
+    height:2rem;
+    display:flex;
+    align-items:center;
+    width:4rem;
+    justify-content: center;
+}
+
+.activeClass{
+    color:rgb(150, 136, 238);
+    background-color: rgb(233,230,247);
+}
+
+.categories > select{
+    width:10rem;
+    height:2rem;
+    border:none;
+    outline:none;
+    color:rgba(0,0,0,0.7)
+}

@@ -1,0 +1,28 @@
+
+.main-image{
+    width:20vw;
+    border-radius:10px 10px 0 0;
+    height:20vh;
+}
+.rent-card-info{
+    padding:1rem 2rem 0 2rem;
+
+}
+
+.main-image > img{
+    border-radius:10px 10px 0 0;
+width:100%;
+height:100%;
+}
+
+.rent-card-price{
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.rent-card-price >div > span{
+    font-size:1.7rem;
+    font-weight:600;
+    color:rgb(155,149,220);
+}

@@ -1,0 +1,27 @@
+.first{
+    display:flex;
+    height:5rem;
+    justify-content: space-between;
+    align-items:center;
+    padding:0 12rem;
+}
+
+.first > .heading{
+    font-size:3rem;
+    font-weight:650;
+    color:rgba(0,0,0,0.9);
+}
+
+.first > .search-bar{
+    width:15rem;
+    padding:0 1rem;
+    border:none;
+    border-bottom:1px solid gray;
+    outline:none;
+    height:2rem;
+}
+
+
+.second{
+    display: flex;
+}
